@@ -1,0 +1,271 @@
+/* ==================Common css start============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+/* ==================Common css End============== */
+
+/* ==================Header css start============== */
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+
+header .main .logo {
+    width: 20%;
+}
+
+header .main .logo a {
+    margin-top: 10px;
+}
+
+
+
+header .main .nav-part {
+    width: 80%;
+}
+
+header .main .nav-part ul {
+    text-align: right;
+
+}
+
+header .main .nav-part ul li {
+    display: inline-block;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    margin-left: 52px;
+    margin-top: 40px;
+}
+
+header .main .nav-part ul li a {
+    font-family: 'Gentium Basic', serif;
+    font-size: 21px;
+    font-weight: 700;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+}
+
+header .main .nav-part ul li a::after {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #ffffff;
+    content: '';
+}
+
+header .main .nav-part ul li:hover a::after {
+    width: 100%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ==================Header css End============== */
+
+/* ==================Banner css Start============== */
+
+#banner-part {
+    background: url(../img/banner_img.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .Banner-text {
+    text-align: center;
+}
+
+#banner-part .Banner-text h1 {
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    font-weight: 400;
+    padding-top: 240px;
+}
+
+#banner-part .Banner-text img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 33px;
+    padding-bottom: 60px;
+}
+
+#banner-part .Banner-text a {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    padding-top: 22px;
+    padding-left: 50px;
+    padding-bottom: 17px;
+    padding-right: 51px;
+    background: rgba(255, 255, 255, 0.31);
+    margin-bottom: 142px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#banner-part .Banner-text a:hover {
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+/* ==================Banner css End============== */
+
+/* ==================About css start============== */
+
+#about-part{
+    background: url(../img/about_bg_img.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#about-part .main {
+    justify-content: space-between;
+}
+
+#about-part .main .about-text {
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#about-part .main .about-text h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 800;
+    color: #cc9900;
+    margin-top: 107px;
+    margin-bottom: 15px;
+}
+
+#about-part .main .about-text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c4c;
+    width: 405px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#about-part .main .about-text .img {
+	margin-left: 70px;
+	margin-top: 25px;
+}
+
+#about-part .main .about-img{
+    text-align: center;
+    margin-top: 75px;
+    margin-top: 55px;
+}
+
+/* ==================About css End============== */
+
+/* ==================Service css start============== */
+
+
+#service-part{
+    background: url(../img/Service_Bg_Img.jpg) no-repeat center;
+    background-size: cover;
+    height: 758px;
+    margin-bottom: 500px;
+}
+
+#service-part .item {
+    position: relative;
+}
+
+#service-part .item .detail{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.548);
+    margin-top: 90px;
+    padding: 60px;
+}
+
+#service-part .item .detail{
+    text-align: center;
+}
+
+#service-part .item .detail h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 85px;
+    padding-bottom: 16px;
+}
+
+#service-part .item .detail p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 410px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#service-part .item .detail .main{
+    margin-left: 10px;
+}
+
+#service-part .item .detail .img{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================Service css End============== */
